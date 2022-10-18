@@ -1,0 +1,33 @@
+Profile Discussion Topics
+
+// Basics Courses
+
+- Java						        - OOP
+- Data Structures					- Algorithms
+- DBMS						        - System Design
+- Operating System				    - Computer Networks
+- Computer Architecture				- Discrete Mathematics
+
+// Specific Technologies
+
+- BT Capacity Planning				- ORM Hibernate
+- REST API		    				- HTML
+- CSS				    			- Java Spring Boot
+- JSP					    		- TypeScript
+- JavaScript				    	- jQuery
+- Angular 						    - Bulma
+- Jenkins 						    - CI / CD
+- JPA					    		- Spring Core
+- Spring MVC				    	- Spring Security
+- Maven						        - Multi-Threading
+- Java Design Patterns				- JSP
+- SQL							    - MongoDB
+- GitHub						    - Unit Testing : Junit
+- CCC : Logging/Exception Handling	- Java Coding Standard
+- ERA Compliance					- UML Diagrams
+- DOM					    		- Express
+- Terminal (GIT)					- NodeJS	
+- EJS (Embedded JavaScript)			- BootStrap
+
+
+The man who works never loses. The reward will find you some day, somehow.
