@@ -9,6 +9,8 @@ const fakeRequestCallback = (url, success, failure) => {
         }
     }, delay)
 }
+
+
 // THE PROMISE VERSION 
 const fakeRequestPromise = (url) => {
     return new Promise((resolve, reject) => {
@@ -47,10 +49,6 @@ const fakeRequestPromise = (url) => {
 //     }, function (err) {
 //         console.log("ERROR!!!", err)
 //     })
-
-
-
-
 
 
 
