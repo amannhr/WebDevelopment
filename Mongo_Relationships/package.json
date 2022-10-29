@@ -1,5 +1,5 @@
 {
-  "name": "YelpCamp",
+  "name": "Mongo_Relationships",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,11 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "ejs-mate": "^4.0.0",
-    "express": "^4.18.2",
-    "joi": "^17.6.4",
-    "method-override": "^3.0.0",
-    "mongoose": "^6.6.5"
+    "mongoose": "^6.7.0"
   }
 }
