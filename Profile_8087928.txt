@@ -29,6 +29,7 @@ Profile Discussion Topics
 - Terminal (GIT)					- NodeJS	
 - EJS (Embedded JavaScript)			- BootStrap
 - MapBox                            - Cloudinary
-- Heroku
+- Heroku                            - MongoDB Atlas
+- Connect Mongo
 
 The man who works never loses. The reward will find you some day, somehow.
