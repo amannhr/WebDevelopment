@@ -1,12 +1,13 @@
 <% layout('layouts/boilerplate') %>
     <link rel="stylesheet" href="/stylesheets/stars.css">
+
     <div class="row">
         <div class="col-6">
             <div id="campgroundCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <% campground.images.forEach((img, i)=> { %>
                         <div class="carousel-item <%= i === 0 ? 'active' : '' %> ">
-                            <img src="<%= img.url %>" class="d-block w-100" alt="...">
+                            <img src="<%= img.url %>" class="d-block w-100" alt="..." crossorigin>
                         </div>
                         <% }) %>
                 </div>
@@ -57,17 +58,13 @@
             </div>
         </div>
         <div class="col-6">
+            <div id='map'></div>
             <% if(currentUser) {%>
                 <h2>Leave a Review</h2>
                 <form action="/campgrounds/<%=campground._id%>/reviews" method="POST" class="mb-3 validated-form"
                     novalidate>
-                    <!-- <div class="mb-3">
-                        <label class="form-label" for="rating">Rating</label>
-                        <input class="form-range" type="range" name="review[rating]" id="rating" mmin="1" max="5">
-                    </div> -->
                     <div class="">
                         <fieldset class="starability-basic">
-                            <!-- <legend>Rating:</legend> -->
                             <input type="radio" id="no-rate" class="input-no-rate" name="review[rating]" value="1"
                                 checked aria-label="No rating." />
                             <input type="radio" id="first-rate1" name="review[rating]" value="1" />
@@ -120,3 +117,10 @@
                             <% } %>
         </div>
     </div>
+
+    <script>
+        const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
+        const campground = <%- JSON.stringify(campground) %>
+    </script>
+
+    <script src="/javascripts/showPageMap.js"></script>

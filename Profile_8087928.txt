@@ -28,6 +28,7 @@ Profile Discussion Topics
 - DOM					    		- Express
 - Terminal (GIT)					- NodeJS	
 - EJS (Embedded JavaScript)			- BootStrap
-
+- MapBox                            - Cloudinary
+- Heroku
 
 The man who works never loses. The reward will find you some day, somehow.
